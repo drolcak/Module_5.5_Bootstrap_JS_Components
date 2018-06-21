@@ -5,19 +5,27 @@
 body {
     box-sizing: border-box;
     margin: 0;
-    padding: 55px 0 0 0;
+    padding: 0;
     font-family: 'Open Sans', sans-serif;
 }
 
 nav img {
     max-width: 70px;
-    background: transparent;
 }
 
-.carousel, .carousel img {
-    max-height: 70vh;
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffffff;
+    font-weight: 700;
+}
+.carousel img {
+    max-height: 80vh;
 }
 
-/*section {*/
-    /*padding-top: 10vh;*/
-/*}*/
+section {
+    padding-top: 1px;
+}
+
+footer {
+    background-color: #000000;
+    color: #ffffff;
+}
